@@ -1,4 +1,4 @@
-# mevn-frontend
+# client
 
 ## Project setup
 ```

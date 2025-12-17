@@ -7,9 +7,9 @@ import ProjectList from './components/pages/ProjectList';
 import ProjectCreate from './components/pages/ProjectCreate';
 import ProjectEdit from './components/pages/ProjectEdit';
 import ProjectShow from './components/pages/ProjectShow';
-   
+
 axios.defaults.baseURL = process.env.VUE_APP_API_URL
- 
+
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -19,5 +19,5 @@ const router = createRouter({
     { path: '/show/:id', component: ProjectShow },
   ],
 });
-   
+
 createApp(App).use(router).mount('#app');
